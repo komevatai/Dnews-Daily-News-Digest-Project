@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latest Health News</title>
+    <link rel="stylesheet" href="health.css">
+</head>
+<body>
+    <!-- Header with link to home page -->
+    <header>
+        <div class="logo">
+            <img src="images/Dscope news logo.jpeg" width="150px" height="120" alt="Dscope News Logo">
+            <h1>Dscope Daily News Digest</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Education.html">Education</a></li>
+                <li><a href="business.html">Business</a></li>
+                <li><a href="Politics.html">Politics</a></li>
+                <li><a href="Sport.html">sport</a></li>
+               <li><a href="#">Contact</a></li>
+              <li><input type="text" id="searchInput" placeholder="Search...">
+            <button id="searchButton">Search</button>
+        
+           <div id="searchResults"></div> 
+        </li>
+        
+    </ul>
+</nav>
+    </header>
+
+    <!-- Main content area for Health News -->
+    <main>
+        <section class="health-news">
+            <h2>Latest Health News</h2>
+            
+            <article>
+                <h3>Breaking: New Health Guidelines for 2024</h3>
+                <p>The latest health guidelines for 2024 emphasize a balanced diet, regular exercise... <a href="#">Read More</a></p>
+            </article>
+            
+            <article>
+                <h3>Medical Technology: A New Era in Healthcare</h3>
+                <p>Innovative medical technologies are improving patient outcomes and treatment options... <a href="#">Read More</a></p>
+            </article>
+
+            <!-- Documentary Video Section -->
+            <div class="health-documentary">
+                <h4>Health Documentary: Current Health Issues</h4>
+                <video width="100%" controls>
+                    <source src="video/Coronavirus Pandemic (full documentary) _ FRONTLINE.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <!-- Comment Section -->
+            <div class="comment-section">
+                <h4>Comments</h4>
+                <textarea placeholder="Write a comment..."></textarea>
+                <button>Submit Comment</button>
+                <div class="comments-list">
+                    <!-- Comments will be displayed here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Sidebar for Advertisements and Top Health Stories -->
+        <aside class="health-aside">
+            <section class="top-stories">
+                <h3>Top Health Stories</h3>
+                <ul>
+                    <li><a href="#">Mental Health: New Findings</a></li>
+                    <li><a href="#">Top 10 Health Trends for 2024</a></li>
+                    <li><a href="#">Health Benefits of Meditation</a></li>
+                </ul>
+            </section>
+
+            <!-- Animated Sliding Advertisement -->
+            <section class="animated-ad">
+                <h3>Advertisement</h3>
+                <div class="ad-image"></div>
+                    <img src="images/burger.webp" alt="burger">
+                
+                <div class="ad-slider">
+                    <div class="slide">Ad: Stay Fit with Gym XYZ</div>
+
+                    <div class="slide">Ad: Health Supplements by ABC</div>
+                    <div class="slide">Ad: Medical Insurance from HealthPlus</div>
+                </div>
+            </section>
+        </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="subscription">
+            <h3>Subscribe for Latest Health News</h3>
+            <form>
+                <input type="email" placeholder="Your Email">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </footer>
+
+    <script src="health.js"></script>
+</body>
+</html>

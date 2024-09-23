@@ -1,0 +1,218 @@
+/* General styling for the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #ff6000;
+    color: white;
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+header ul li {
+    margin-right: 2em;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    margin: 2em;
+}
+
+/* Main content for Sports news */
+.sports-news {
+    flex: 70%;
+}
+
+.sports-news h2 {
+    background-color: #ff6000;
+    color: white;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.sports-news article {
+    background-color: white;
+    padding: 1em;
+    margin-bottom: 1.5em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sports-news article h3 {
+    margin: 0 0 0.5em;
+}
+
+.sports-news article p {
+    margin: 0 0 1em;
+}
+
+.sports-news a {
+    color: #ff4500;
+    text-decoration: none;
+}
+
+/* Sports documentary section */
+.sports-documentary {
+    margin: 2em 0;
+}
+
+.sports-documentary h4 {
+    margin-bottom: 1em;
+}
+
+.sports-documentary video {
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Comment section styling */
+.comment-section {
+    margin-top: 2em;
+}
+
+.comment-section h4 {
+    margin-bottom: 0.5em;
+}
+
+.comment-section textarea {
+    width: 100%;
+    height: 80px;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.comment-section button {
+    padding: 0.5em 1em;
+    background-color: #ff6000;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.comment-section button:hover {
+    background-color: #e63e00;
+}
+
+.comments-list {
+    margin-top: 1em;
+}
+
+/* Sidebar styling */
+.sports-aside {
+    flex: 30%;
+    margin-left: 2em;
+}
+
+.sports-aside section {
+    background-color: white;
+    padding: 1em;
+    margin-bottom: 1.5em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sports-aside h3 {
+    margin-bottom: 1em;
+}
+
+.sports-aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sports-aside ul li {
+    margin-bottom: 0.5em;
+}
+
+.sports-aside ul li a {
+    text-decoration: none;
+    color: #ff6000;
+}
+
+.sports-aside ul li a:hover {
+    color: #ff4500;
+}
+
+/* Animated Advertisement */
+.animated-ad .ad-banner {
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 1em;
+    border: 2px dashed #ccc;
+    position: relative;
+}
+
+.animated-text {
+    font-size: 1.2em;
+    color: #ff4500;
+    animation: blink 1.5s infinite;
+}
+
+/* Animation for blinking text */
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Footer */
+footer {
+    background-color: #ff6000;
+    color: white;
+    padding: 2em;
+    text-align: center;
+}
+
+footer form input {
+    padding: 0.5em;
+    margin-right: 0.5em;
+}
+
+footer form button {
+    padding: 0.5em 1em;
+    background-color: #ff6000;
+    color: white;
+    border: none;
+}
+/* Footer */
+footer {
+    background-color: #ff6000;
+    color: white;
+    padding: 2em;
+    text-align: center;
+}
+
+footer form input {
+    padding: 0.5em;
+    margin-right: 0.5em;
+}
+
+footer form button {
+    padding: 0.5em 1em;
+    background-color: #ff6000;
+    color: white;
+    border: none;
+}
